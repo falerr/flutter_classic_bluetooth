@@ -17,8 +17,8 @@
     BLUETOOTH_SCAN covers it, so these stop at 30 and an app targeting Android
     12 or later does not have to declare or justify a location permission.
   -->
-  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30" />
-  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
   <!--
     Android 12+ (API 31+). Bluetooth Classic serial never derives physical
